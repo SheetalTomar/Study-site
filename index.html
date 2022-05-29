@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map Up Golas!</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	
+</head>
+<body id="color">
+<nav class="navbar navbar-expand-lg navbar-warning bg-warning" >
+  <a class="navbar-brand" href="#"><img src="1.jpg" width="110" height="110"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MBA
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Top Ranked Colleges</a>
+          <a class="dropdown-item" href="#">Popular Courses</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Exams</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Engineering
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Top Ranked Colleges</a>
+          <a class="dropdown-item" href="#">Popular Courses</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Exams</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Medical
+        </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Top Ranked Colleges</a>
+          <a class="dropdown-item" href="#">Popular Courses</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Exams</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Design
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Top Ranked Colleges</a>
+          <a class="dropdown-item" href="#">Popular Courses</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Exams</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Study Abroad
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Countries</a>
+          <a class="dropdown-item" href="#">Colleges</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Scholarships</a>
+        </div>
+      </li>
+     
+    </ul>
+  
+      <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>&nbsp;
+      <form class="form-inline my-2 my-lg-0">
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Signup
+  </button>
+
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Please fill your detail!</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         
+            <div class="container">
+            	<div class="row" id="form">
+            		<div class="col-md-6"> Name:</div>
+            		<div class="col-md-6"><input type="text" class="form-control"></div>
+            	</div>
+            	<div class="row">
+            		<div class="col-md-6">Email:</div>
+            		<div class="col-md-6"><input type="email" class="form-control"></div>
+            	</div>
+            	<div class="row">
+            		<div class="col-md-6">Password:</div>
+            		<div class="col-md-6"><input type="email" class="form-control"></div>
+            	</div>
+            	<br>
+            		<div class="row">
+            		<div class="col-md-12">
+            			<input type="checkbox">i agree to all term and conditions and privacy policy!<br><br>
+            			
+            		</div>
+            	</div>
+            	
+            	
+            </div>          	
+    
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Signup</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>&nbsp;
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+    Login
+  </button>
+
+  <div class="modal" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Login!</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        
+          	<div class="container">
+          	<div class="row">
+            		<div class="col-md-6">Email:</div>
+            		<div class="col-md-6"><input type="email" class="form-control"></div>
+            	</div>
+            	<div class="row">
+            		<div class="col-md-6">Password:</div>
+            		<div class="col-md-6"><input type="email" class="form-control"></div>
+            	</div>
+            	<div class="row">
+            		<div class="col-md-12"><a href="#">forgot your password?</a></div>   
+          	</div>
+          	
+
+   
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Login</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+    </form>
+    
+  </div>
+</nav>
+
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12"><img src="3.jpg" height="500" width="1200" style="margin-top:30px;box-shadow: 2px 2px 2px black"></div>
+	
+
+		</div>
+		<div class="row">
+			<div class="col-md-2"><a href="Mba.html">MBA</a></div>
+			<div class="col-md-2"><a href="engineering.html">Engineering</a></div>
+			<div class="col-md-2"><a href="medical.html">Medical</a></div>
+			<div class="col-md-2"><a href="design.html">Design</a></div>
+			<div class="col-md-2"><a href="about.html">About us</a></div>
+		</div>
+
+	
+	</div>
+  <div class="container" style="background-color:darkgrey">
+     <div class="row">
+      <div class="col-md-4"><ul style="color:black">
+        <li><h5>Mapup goals</h5></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Management Team</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Map golas Authors</a></li>
+
+      </ul></div>
+      <div class="col-md-4">
+        <ul>
+          <li><h5>Colleges</h5></li>
+          <li><a href="#">Client Login</a></li>
+          <li><a href="#">Advertise with us</a></li>
+          <li><a href="#">Add Colleges</a></li>
+          <li><a href="#">Contact us</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+         <ul>
+          <li><h5>Others</h5></li>
+          <li><a href="#">
+FAQs</a></li>       
+          <li><a href="#">Grievances</a></li>
+          <li><a href="#">Notices / Summons</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+
+  </div>
+
+
+</body>
+</html>

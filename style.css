@@ -1,0 +1,28 @@
+a:hover{
+	background-color:red;
+
+}
+
+
+a:hover{
+	background-color:white
+}
+#color{
+	background-color:lightgrey;
+}
+a{
+	font-size:22px;
+	font-family:bold;
+}
+#form{
+	padding:5px;
+}
+.row{
+	padding:5px;
+}
+.container{
+	width:100%;
+}
+ul li{
+	list-style-type: none
+}
